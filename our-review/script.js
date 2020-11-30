@@ -1,23 +1,31 @@
-let input = 0;
+let data = [{
+    id: 1,
+    avatarPath: 'image/avatar1.jpg',
+    name: 'khue thun',
+    discription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque ipsa pariatur quisquam repudiandae labore obcaecati sit ducimus expedita culpa placeat delectus, iure architecto unde corrupti voluptate reprehenderit ab maiores nulla.'
+  },
+  {
+    id: 1,
+    avatarPath: 'image/avatar1.jpg',
+    name: 'khue thun',
+    discription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque ipsa pariatur quisquam repudiandae labore obcaecati sit ducimus expedita culpa placeat delectus, iure architecto unde corrupti voluptate reprehenderit ab maiores nulla.'
+  },
+  {
+    id: 1,
+    avatarPath: 'image/avatar1.jpg',
+    name: 'khue thun',
+    discription: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque ipsa pariatur quisquam repudiandae labore obcaecati sit ducimus expedita culpa placeat delectus, iure architecto unde corrupti voluptate reprehenderit ab maiores nulla.'
+  }
+]
 
-function crease() {
-  console.log(input)
-  input++
-  document.getElementById("label").innerHTML = input
+function changeAvatar() {
+
 }
 
-function decrease() {
-  console.log(input)
-  input--
-  document.getElementById("label").innerHTML = input
+function changeName() {
+
 }
 
-function reset() {
-  input = 0
-  document.getElementById("label").innerHTML = input
+function changeDicription() {
+
 }
-
-
-document.getElementById('bnt-crease').addEventListener('click', crease)
-document.getElementById('bnt-decrease').addEventListener('click', decrease)
-document.getElementById('bnt-reset').addEventListener('click', reset)
